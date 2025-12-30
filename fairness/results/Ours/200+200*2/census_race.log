@@ -1,0 +1,6 @@
+Time: 2025-12-30 14:55:54
+Repair Dataset: census
+Sensitive Attributes: race
+Data Config: Normal Samples=200, Unfair Samples=200
+args.layer_round=20 args.interval=10 args.local_epoch=30
+	

@@ -1,0 +1,11 @@
+Time: 2025-12-30 14:11:05
+Repair dataset cifar
+Repair attack Badnets
+Repair num (poisoned) 1000
+Repair num (clean) 1000
+args.layer_round=20  args.interval=10  args.localepoch=30
+	
+After repair 1 neurons:
+On repair data acc 83.20, sr 92.90
+After repair 2 neurons:
+On repair data acc 83.20, sr 48.34

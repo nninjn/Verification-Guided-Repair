@@ -1,0 +1,18 @@
+Time: 2025-12-30 14:14:49
+Repair net n21
+Repair property p2
+Repair num (violated) 500
+Repair num (clean) 500
+args.layer_round=20  args.interval=10  args.localepoch=25
+	
+Layer: 6
+Before  Repair:
+VR on Dm: 100.00
+VR on Dc: 0.00
+VR on Dg: 100.00
+After  Repair:
+RSR: 100.00
+D: 0.00
+G: 100.00
+Loc time = 0.7755162715911865
+Repair time = 1.285836935043335

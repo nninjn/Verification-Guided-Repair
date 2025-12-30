@@ -1,0 +1,61 @@
+Time: 2025-12-30 14:55:22
+Repair Dataset: census
+Sensitive Attributes: age
+Data Config: Normal Samples=200, Unfair Samples=200
+args.layer_round=20 args.interval=10 args.local_epoch=30
+	
+After repair 1 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 64.00%
+After repair 2 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 51.50%
+After repair 3 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 33.00%
+After repair 4 neuron:
+Normal data acc: 86.00% → Unfair date IDI: 21.00%
+After repair 5 neuron:
+Normal data acc: 86.00% → Unfair date IDI: 14.00%
+After repair 6 neuron:
+Normal data acc: 86.50% → Unfair date IDI: 12.00%
+After repair 7 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 7.50%
+After repair 8 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 5.50%
+After repair 9 neuron:
+Normal data acc: 86.00% → Unfair date IDI: 4.00%
+After repair 10 neuron:
+Normal data acc: 86.00% → Unfair date IDI: 2.50%
+After repair 11 neuron:
+Normal data acc: 86.00% → Unfair date IDI: 1.50%
+After repair 12 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 2.50%
+After repair 13 neuron:
+Normal data acc: 85.50% → Unfair date IDI: 2.50%
+After repair 14 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 3.50%
+After repair 15 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 3.50%
+After repair 16 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 4.50%
+After repair 17 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 5.50%
+After repair 18 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 6.00%
+After repair 19 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 6.50%
+After repair 20 neuron:
+Normal data acc: 85.00% → Unfair date IDI: 6.50%
+Before Repair:
+Acc: 86.33%
+D_g: 0.00%
+D_s: 0.00%
+RSR: 0.00%
+After Repair:
+Acc: 86.39%
+D_g: 92.91%
+D_s: 93.01%
+RSR: 98.50%
+Fault Localization Time: 12.32s
+Repair Synthesis Time: 2.90s
+Total Time: 15.21s
+####################################################################################################
+

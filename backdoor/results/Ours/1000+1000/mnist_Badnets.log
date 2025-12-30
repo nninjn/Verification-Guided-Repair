@@ -1,0 +1,54 @@
+Time: 2025-12-30 14:04:38
+Repair dataset mnist
+Repair attack Badnets
+Repair num (poisoned) 1000
+Repair num (clean) 1000
+args.layer_round=20  args.interval=10  args.localepoch=30
+	
+After repair 1 neurons:
+On repair data acc 99.30, sr 76.15
+After repair 2 neurons:
+On repair data acc 99.20, sr 24.30
+After repair 3 neurons:
+On repair data acc 99.10, sr 5.60
+After repair 4 neurons:
+On repair data acc 99.20, sr 0.34
+After repair 5 neurons:
+On repair data acc 99.20, sr 0.00
+Before Repair:
+On Repair Set: Acc 99.10, sr 100.00
+On Test   Set: Acc 99.34, sr 99.94
+After  Repair:
+Loc time = 107.97744750976562
+Repair time = 7.120208024978638
+RSR: 100.00
+Acc: 99.34
+G: 99.50
+####################################################################################################
+Time: 2025-12-30 14:08:03
+Repair dataset mnist
+Repair attack Badnets
+Repair num (poisoned) 1000
+Repair num (clean) 1000
+args.layer_round=20  args.interval=10  args.localepoch=30
+	
+After repair 1 neurons:
+On repair data acc 99.30, sr 76.15
+After repair 2 neurons:
+On repair data acc 99.20, sr 24.30
+After repair 3 neurons:
+On repair data acc 99.10, sr 5.60
+After repair 4 neurons:
+On repair data acc 99.20, sr 0.34
+After repair 5 neurons:
+On repair data acc 99.20, sr 0.00
+Before Repair:
+On Repair Set: Acc 99.10, sr 100.00
+On Test   Set: Acc 99.34, sr 99.94
+After  Repair:
+Loc time = 107.53500771522522
+Repair time = 6.752517223358154
+RSR: 100.00
+Acc: 99.34
+G: 99.50
+####################################################################################################
