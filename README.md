@@ -1,6 +1,7 @@
-# [Please Insert Your Paper Title Here]
+# VeRe: Verification Guided Fault Localization and Repair Synthesis of Deep Neural Networks
 
-This repository contains the codes and scripts for the paper "**[Insert Paper Title Here]**". It includes implementations for three main tasks: Backdoor Removal, Unfairness Mitigation, and Safety Property Correction.
+This repository contains the codes and scripts for the paper "**VeRe: Verification Guided Fault Localization and Repair Synthesis of Deep
+Neural Networks**", which is a significant extension of our previous work published in ICSE 2024. It includes implementations for three main tasks: Backdoor Removal, Unfairness Mitigation, and Safety Property Correction.
 
 ## Requirements
 
@@ -13,6 +14,7 @@ To run the code, please ensure the following dependencies are installed:
 ## Models
 
 Due to capacity limitations, we uploaded all the buggy models involved in the experiments of backdoor repair to this [anonymous link](YOUR_LINK_HERE).
+Other models are provided in `fairness/buggy_model` and `safety/buggy_model`.
 
 ## Datasets
 
@@ -46,6 +48,9 @@ For the **backdoor removal** task, due to the large size of the datasets, please
 
 
 ## Reproducing the Experiments
+
+We prepare scripts to quickly reproduce our experiments.
+The output logs will show the Repair Success Rate (RSR), the generalization and the Accuracy (or drawdown rate).
 
 ### 1. Reproduce Repairing Backdoor
 
@@ -96,3 +101,4 @@ Run the script by specifying the number of counterexamples and normal samples (e
 cd safety
 bash run.sh 500 500
 ```
+
