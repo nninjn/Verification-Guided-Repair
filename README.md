@@ -13,7 +13,7 @@ To run the code, please ensure the following dependencies are installed:
 
 ## Models
 
-Due to capacity limitations, we uploaded all the buggy models involved in the experiments of backdoor repair to this [anonymous link](YOUR_LINK_HERE).
+Due to capacity limitations, we uploaded all the buggy models involved in the experiments of backdoor repair to this [anonymous link](https://drive.google.com/file/d/1_xlhfBSv99TWaLcvagdrFEGvPUlyH3Ku/view?usp=drive_link).
 Other models are provided in `fairness/buggy_model` and `safety/buggy_model`.
 
 ## Datasets
